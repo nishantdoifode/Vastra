@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Priya Sharma",
+    "location": "Mumbai",
+    "rating": 5,
+    "text": "The Banarasi silk saree exceeded all expectations. The craftsmanship is extraordinary — you can feel the heritage in every thread.",
+    "product": "Royal Banarasi Silk",
+    "avatar": "PS"
+  },
+  {
+    "id": 2,
+    "name": "Ananya Patel",
+    "location": "Delhi",
+    "rating": 5,
+    "text": "My bridal lehenga was absolutely stunning. The attention to detail in the embroidery made me feel like a queen on my special day.",
+    "product": "Bridal Lehenga Choli",
+    "avatar": "AP"
+  },
+  {
+    "id": 3,
+    "name": "Meera Reddy",
+    "location": "Bangalore",
+    "rating": 5,
+    "text": "I've ordered multiple times and the quality is consistently excellent. Their Chanderi suits are my absolute go-to for festive occasions.",
+    "product": "Chanderi Suit Set",
+    "avatar": "MR"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Gupta",
+    "location": "Kolkata",
+    "rating": 4,
+    "text": "The fabric quality is top-notch. Delivery was a bit delayed, but the product itself is worth the wait. Highly recommended!",
+    "product": "Tussar Raw Silk",
+    "avatar": "SG"
+  },
+  {
+    "id": 5,
+    "name": "Kavya Iyer",
+    "location": "Chennai",
+    "rating": 5,
+    "text": "Bought the Kanjivaram for my mother. She was in tears seeing the traditional motifs. Vastra truly understands ethnic wear.",
+    "product": "Kanjivaram Temple Border",
+    "avatar": "KI"
+  },
+  {
+    "id": 6,
+    "name": "Riya Malhotra",
+    "location": "Pune",
+    "rating": 5,
+    "text": "The packaging itself felt so premium. The emerald gown fit perfectly and the color is even more vibrant in person.",
+    "product": "Emerald Anarkali Gown",
+    "avatar": "RM"
+  }
+]

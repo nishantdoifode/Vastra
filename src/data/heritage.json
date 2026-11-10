@@ -1,0 +1,29 @@
+{
+  "manifesto": [
+    "We do not merely",
+    "design garments.",
+    "We weave history,",
+    "honor the artisan,",
+    "and drape the future."
+  ],
+  "visuals": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=80",
+      "caption": "The Art of the Loom",
+      "location": "Varanasi, India"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1594761051656-153faed78626?w=800&q=80",
+      "caption": "Threads of Gold",
+      "location": "Kanchipuram, India"
+    }
+  ],
+  "stats": [
+    { "number": "500+", "label": "Master Artisans" },
+    { "number": "50", "label": "Weaving Clusters" },
+    { "number": "25", "label": "Years of Legacy" },
+    { "number": "100%", "label": "Handcrafted" }
+  ]
+}

@@ -1,0 +1,117 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --maroon: #7B1E3A;
+  --maroon-dark: #5a1529;
+  --gold: #C9A961;
+  --gold-light: #E4C97E;
+  --cream: #FAF6F0;
+  --ivory: #F5EFE4;
+  --rose: #E8C5C5;
+  --ink: #2A1A1F;
+  --muted: #6B5A5F;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+/* ===== RESPONSIVE GRID OVERRIDES ===== */
+
+/* Product grids: 4 → 3 → 2 → 1 columns */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+@media (max-width: 1280px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+}
+@media (max-width: 900px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+@media (max-width: 500px) {
+  .product-grid { grid-template-columns: 1fr; gap: 16px; }
+}
+
+/* Category grid: 4 → 2 → 1 */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 900px) {
+  .category-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+@media (max-width: 500px) {
+  .category-grid { grid-template-columns: 1fr; }
+}
+
+/* Testimonials grid */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+@media (max-width: 900px) {
+  .testimonial-grid { grid-template-columns: 1fr; gap: 20px; }
+}
+
+/* Footer grid */
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 60px;
+}
+@media (max-width: 900px) {
+  .footer-top { grid-template-columns: 1fr; gap: 40px; }
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+@media (max-width: 700px) {
+  .footer-links { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+}
+
+/* Hide/show helpers */
+.desktop-only { display: flex !important; }
+.mobile-only { display: none !important; }
+@media (max-width: 900px) {
+  .desktop-only { display: none !important; }
+  .mobile-only { display: flex !important; }
+}
+
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mobile menu toggle */
+@media (max-width: 900px) {
+  .desktop-menu { display: none !important; }
+  .mobile-toggle { display: flex !important; }
+}
+@media (min-width: 901px) {
+  .mobile-toggle { display: none !important; }
+}
